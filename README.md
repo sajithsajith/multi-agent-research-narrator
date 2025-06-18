@@ -29,16 +29,16 @@ The entire process is managed by a hierarchical crew. The Manager Agent receives
 
 ```mermaid
 graph TD
-    A[User Input: Topic & File Path] --> B{Manager Agent};
-    B --Delegates Task 1--> C[🔎 Searcher Agent];
-    C --Searches Web (DuckDuckGo)--> D[Raw Information];
-    D --> B;
-    B --Delegates Task 2--> E[📝 Summarizer Agent];
-    E --Summarizes Info--> F[Concise Summary];
-    F --> B;
-    B --Delegates Task 3--> G[🗣️ TTS Agent];
-    G --Converts to Speech (Hugging Face)--> H[Audio File (.wav)];
-    H --> I[Process Complete];
+    A[User Input: Topic & File Path] -- B{Manager Agent};
+    B --Delegates Task 1-- C[🔎 Searcher Agent];
+    C --Searches Web (DuckDuckGo)-- D[Raw Information];
+    D -- B;
+    B --Delegates Task 2-- E[📝 Summarizer Agent];
+    E --Summarizes Info-- F[Concise Summary];
+    F -- B;
+    B --Delegates Task 3-- G[🗣️ TTS Agent];
+    G --Converts to Speech (Hugging Face)-- H[🔊 Audio File (.wav)];
+    H -- I[✅ Process Complete];
 ```
 
 ### The Agents
