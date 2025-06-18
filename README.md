@@ -5,7 +5,7 @@
 [![Framework: Hugging Face](https://img.shields.io/badge/Framework-Hugging%20Face-FCC624.svg?logo=huggingface&logoColor=black)](https://huggingface.co/)
 [![Framework: LangChain](https://img.shields.io/badge/Framework-LangChain-00A37F.svg?logo=langchain&logoColor=white)](https://www.langchain.com/)
 [![LLM](https://img.shields.io/badge/LLM-Claude%203.5%20Sonnet-purple.svg)](https://www.anthropic.com/news/claude-3-5-sonnet)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This project showcases a powerful multi-agent system built with **CrewAI** that automates the process of researching any given topic, generating a concise summary, and converting that summary into a high-quality spoken audio file.
 
@@ -171,4 +171,4 @@ Contributions are welcome! If you have ideas for improvements or find any issues
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
