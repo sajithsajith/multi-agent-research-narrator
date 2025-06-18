@@ -37,8 +37,8 @@ graph TD
     E --Summarizes Info--> F[Concise Summary];
     F --> B;
     B --Delegates Task 3--> G[🗣️ TTS Agent];
-    G --Converts to Speech (Hugging Face)--> H[🔊 Audio File (.wav)];
-    H --> I[✅ Process Complete];
+    G --Converts to Speech (Hugging Face)--> H[Audio File (.wav)];
+    H --> I[Process Complete];
 ```
 
 ### The Agents
